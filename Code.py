@@ -23,7 +23,7 @@ tentative=0
 reussite=False   
 mot=mot_aleatoire()
 
-while (not(tentative == 9 or reussite == True)):
+while not(tentative == 9 or reussite == True):
     
     if (tentative > 8):
         print ("Dommage le bon mot était", mot)
