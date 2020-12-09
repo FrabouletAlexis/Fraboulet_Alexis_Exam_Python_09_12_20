@@ -2,6 +2,8 @@ import random
 from colorama import init 
 init()
 from colorama import Fore, Back, Style
+
+# ------fonction------#
 def mot_aleatoire ():
     tableau_mot = ["retard","inouie","abbaye","clamer","dopant","alarme","ovuler","machin","enfler","alcool"]
     nb_mot=random.randrange(0,len(tableau_mot))
